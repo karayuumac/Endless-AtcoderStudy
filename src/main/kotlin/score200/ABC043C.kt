@@ -19,12 +19,6 @@ fun main(args: Array<String>) {
 fun Int.squared() : Int = this * this
 
 /* kotlin 1.0.0 は#roundToInt()がないので作るしかない... -> Mathクラスを使うのが楽。*/
-/*
-fun Double.roundToInt() : Int {
-    return if (this < 1.5) {
-        this.toInt()
-    } else {
-        this.toInt() + 1
-    }
-}
-*/
+
+fun Double.roundToInt() : Int = Math.round(this).toInt()
+
