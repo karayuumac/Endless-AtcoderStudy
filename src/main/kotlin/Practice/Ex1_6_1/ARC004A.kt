@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
         for (j in i + 1 until point_map.size) {
             val a_p = point_map[i]
             val b_p = point_map[j]
-            max = max(calc(a_p.x, a_p.y, b_p.x, b_p.y), max)
+            max = kotlin.math.max(calc(a_p.x, a_p.y, b_p.x, b_p.y), max)
         }
     }
 
@@ -37,6 +37,7 @@ fun Double.round(digit: Int) : Double {
 }
 */
 
+/*
 fun max(a: Double, b: Double) : Double {
     return if (a >= b) {
         a
@@ -44,5 +45,6 @@ fun max(a: Double, b: Double) : Double {
         b
     }
 }
+*/
 
 data class Point(val x: Int, val y: Int)
