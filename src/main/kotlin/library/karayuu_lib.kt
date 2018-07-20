@@ -11,6 +11,8 @@ package library
  */
 fun pow(a: Int, b: Int) : Int = Math.pow(a.toDouble(), b.toDouble()).toInt()
 
+/*
 fun String.chunked(range: Int) : List<String> {
-    
+
 }
+*/
