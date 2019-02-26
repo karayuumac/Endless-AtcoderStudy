@@ -1,4 +1,4 @@
-package AtcoderBigginersSelection
+package AtcoderBigginersSelection.string
 
 /**
  * Created by karayuu on 2018/11/10

@@ -1,4 +1,4 @@
-package AtcoderBigginersSelection
+package AtcoderBigginersSelection.Multiple_decision
 
 /**
  * Created by karayuu on 2018/11/10
